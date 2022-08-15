@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <form action="">
+        
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">billing address</h3>
+                    <div class="inputBox">
+                        <span>Full name:</span>
+                        <input type="text" placeholder="John Doe">
+                    </div>
+                    <div class="inputBox">
+                        <span>E-mail:</span>
+                        <input type="email" placeholder="example@example.com">
+                    </div>
+                    <div class="inputBox">
+                        <span>Address:</span>
+                        <input type="text" placeholder="house - street - locality">
+                    </div>    
+                    <div class="inputBox">
+                        <span>City:</span>
+                        <input type="text" placeholder="Mumbai">
+                    </div>    
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>State:</span>
+                                <input type="text" placeholder="Maharashtra">
+                            </div>
+                            <div class="inputBox">
+                                <span>Zip code:</span>
+                                <input type="text" placeholder="123 456">
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col">
+                    <h3 class="title">Payment</h3>
+    
+                    <div class="inputBox">
+                        <span>Cards accepted:</span>
+                        <img src="/images/card_img.png" alt="Cards">
+                    </div>
+                    <div class="inputBox">
+                        <span>Name on card:</span>
+                        <input type="text" placeholder="Mr.John Doe">
+                    </div>
+                    <div class="inputBox">
+                        <span>Credit card number:</span>
+                        <input type="number" placeholder="1111-2222-3333-4444">
+                    </div>    
+                    <div class="inputBox">
+                        <span>Expiry month:</span>
+                        <input type="text" placeholder="January">
+                    </div>
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>Exp year:</span>
+                                <input type="number" placeholder="2022">
+                            </div>
+                            <div class="inputBox">
+                                <span>CVV:</span>
+                                <input type="number" placeholder="1234">
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <input type="submit" value="Proceed to checkout" class="submit-btn"> 
+        </form>
+
+    </div>
+
+</body>
+</html>
